@@ -5,7 +5,7 @@ Python script to decrypt files encrypted using Cordova in Android app
 
 1. Decompile APK using Dex2Jar and open JAR file in JD-Gui
 2. Secrey Key and IV can be found hardcoded in `com.tkyaki.cordova/DecryptResource.class` file 
-OR if you are using an online decompiler you can look into path `/sources/com/tkyaji/cordova/DecryptResource.class`
+OR if you are using an online decompiler (ex: decompiler[.com]) you can look into path `/sources/com/tkyaji/cordova/DecryptResource.class`
 
 ## Usage
 
