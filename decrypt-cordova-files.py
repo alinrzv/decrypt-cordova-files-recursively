@@ -86,7 +86,7 @@ def process_directory(directory, cipher):
                 decrypt_file(file_path, cipher)
 
 if len(sys.argv) != 4:
-    print('Usage: python decrypt-cordova-files.py "secret_key" "iv_value" "directory"')
+    print('Usage: python decrypt-cordova-files.py "secret_key" "iv_value" "directory_path"')
     sys.exit(1)
 
 cipher = AESCipher(sys.argv[1])
