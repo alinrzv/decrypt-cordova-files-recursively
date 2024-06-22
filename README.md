@@ -9,9 +9,10 @@ OR if you are using an online decompiler (ex: decompiler[.com]) you can look int
 
 ## Usage
 
-Standalone usage:
+Standalone usage (it will decrypt html,css,js files):
 
 ```python decrypt-cordova-files.py "secret_key" "iv_value" "directory_path"```
+
 
 ## Credits to:
 https://gist.github.com/swinton/8409454
